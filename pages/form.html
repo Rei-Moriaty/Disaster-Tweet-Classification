@@ -2,11 +2,38 @@
 <html>
     <head>
         <title>Form</title>
+        <link href="https://fonts.cdnfonts.com/css/chirp-2" rel="stylesheet">
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </head>
-    <body>
+    <body style="background-color:#0E4D78; font-family: 'Chirp', sans-serif; padding-left: 5%; padding-right: 5%;">
         <form action="/class" method="POST">
             Tweet: <input type="text" name="text">
-            <input type="submit">
+            <input type="submit" value="Classify" class="button">
         </form>
     </body>
+    <style>
+        input[type=text]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 5px solid red;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        input[type=button], input[type=submit], input[type=reset]{
+            background-color: white;
+            border: none;
+            color: #0E4D78;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: 15px solid #0E4D78;            
+            border-radius: 20px;
+            
+        }
+        .button{
+            font-weight: bold;
+        }
+    </style>
 </html>

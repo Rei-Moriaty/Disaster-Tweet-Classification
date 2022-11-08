@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link href="https://fonts.cdnfonts.com/css/chirp-2" rel="stylesheet">
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </head>
+    <body style="background-color:#0E4D78; font-family: 'Chirp', sans-serif; padding-left: 5%; padding-right: 5%;">
+        <h1 style="color:whitesmoke;text-align:center;" >Home</h1>
+        <div class="row">
+            <div class="column">
+                <h2 style="color:whitesmoke;;">Disaster Tweets</h2>
+                {%for i in range(0, len_disaster)%}
+                    {% set tweet = disaster_tweets[i] %}
+                    <li class="no_style"> 
+                            <blockquote class="twitter-tweet">
+                                <p lang="en" dir="ltr">{{tweet.text}}
+                                </p>&mdash; 
+                                {{tweet.user.name}} (@tweet.user.screen_name) 
+                                <a href="https://twitter.com/twitter/statuses/{{tweet.id}}">{{tweet.created_at}}</a>
+                            </blockquote> 
+                            
+                    </li>
+                {%endfor%}
+            </div>
+            <div class="column">
+                <h2 style="color:whitesmoke">Non Disaster Tweets</h2>
+                {%for i in range(0, len_non_disaster)%}
+                    {% set tweet = non_disaster_tweets[i] %}
+                    <li class="no_style">
+                            <blockquote class="twitter-tweet">
+                                <p lang="en" dir="ltr">{{tweet.text}}
+                                </p>&mdash; 
+                                {{tweet.user.name}} (@tweet.user.screen_name) 
+                                <a href="https://twitter.com/twitter/statuses/{{tweet.id}}">{{tweet.created_at}}</a>
+                            </blockquote> 
+                    </li>
+                {%endfor%}
+            </div>
+          </div>
+        
+        
+       
+    </body>
+    <style>
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 50%;
+        }
+        .no_style{
+            list-style: none
+        }
+    </style>
+</html>

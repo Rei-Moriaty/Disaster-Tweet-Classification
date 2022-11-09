@@ -1,0 +1,13 @@
+flask
+sklearn
+pandas
+numpy
+matplotlib
+pickle
+tweepy
+nltk
+textblob
+spacy
+collections
+re
+gunicorn

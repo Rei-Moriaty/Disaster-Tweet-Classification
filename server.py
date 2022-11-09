@@ -76,7 +76,6 @@ def get_tweets():
     tweets = []
     for tweet in api.search_tweets(q="naturaldisaster", lang="en"):
         tweets.append(tweet)
-    print(tweets[0])
     return tweets
         
 

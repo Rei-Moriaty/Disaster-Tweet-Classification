@@ -7,5 +7,4 @@ tweepy
 nltk
 textblob
 spacy
-collections
 gunicorn

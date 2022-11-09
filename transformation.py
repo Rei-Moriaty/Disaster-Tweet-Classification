@@ -60,7 +60,8 @@ def transform(tweet, tags_set, vectorizer):
     tweet["avg_word_length"] = tweet["char_count"] / tweet["word_count"]
     tweet["avg_sentence_length"] =  tweet["word_count"] / tweet["sentence_count"]
     tweet["sentiment"] = TextBlob(tweet["text"]).sentiment.polarity
-    ner = spacy.load("en_core_web_sm")
+    # ner = spacy.load("en_core_web_sm")
+    ner = spacy.load("en")
     tweet["tags"] =  [(tag.text, tag.label_) for tag in ner(tweet["text"]).ents]
     tweet["tags"] = utils_lst_count(tweet["tags"])
     for feature in tags_set:

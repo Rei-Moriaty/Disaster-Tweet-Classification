@@ -5,8 +5,7 @@ import spacy
 import collections
 import numpy as np
 
-stopwords = nltk.corpus.stopwords.words("english")
-stopwords
+stopwords = nltk.download('stopwords')
 
 words = ["fire", "news", "disaster", "suicide bomber", "oil spill", "california wildfire"]
 

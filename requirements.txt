@@ -8,5 +8,4 @@ nltk
 textblob
 spacy
 collections
-re
 gunicorn

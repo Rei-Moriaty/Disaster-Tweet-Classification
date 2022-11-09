@@ -3,7 +3,6 @@ sklearn
 pandas
 numpy
 matplotlib
-pickle
 tweepy
 nltk
 textblob

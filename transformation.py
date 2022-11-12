@@ -7,7 +7,7 @@ import collections
 import numpy as np
 
 # stopwords = nltk.download('stopwords')
-stopwords = stopwords.words('english')
+stopwords = nltk.corpus.stopwords.words('english')
 
 words = ["fire", "news", "disaster", "suicide bomber", "oil spill", "california wildfire"]
 

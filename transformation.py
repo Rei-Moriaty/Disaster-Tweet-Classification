@@ -1,11 +1,13 @@
 import re
 import nltk
 from textblob import TextBlob
+from nltk.corpus import stopwords
 import spacy
 import collections
 import numpy as np
 
-stopwords = nltk.download('stopwords')
+# stopwords = nltk.download('stopwords')
+stopwords = stopwords.words('english')
 
 words = ["fire", "news", "disaster", "suicide bomber", "oil spill", "california wildfire"]
 

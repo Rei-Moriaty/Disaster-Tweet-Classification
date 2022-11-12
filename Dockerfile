@@ -6,4 +6,4 @@ RUN python3.9 -m nltk.downloader stopwords
 RUN python3.9 -m spacy download en_core_web_sm
 COPY . /app
 EXPOSE $PORT
-CMD ["waitress-serve", "server:app"]
+CMD ["waitress-serve", "--port=$PORT", "server:app"]

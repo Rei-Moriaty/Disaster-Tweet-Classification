@@ -40,5 +40,5 @@ We then create Dockerfile to create containerize the app and use it
 
 
 [![Disaster Tweet Classifier](https://imgur.com/G17dVYY)](https://youtu.be/99cM8lVPtrU)
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
 

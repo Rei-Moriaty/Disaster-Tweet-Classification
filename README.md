@@ -39,5 +39,5 @@ Then for deployment we create a flask app which takes real time tweets using twe
 We then create Dockerfile to create containerize the app and use it
 
 
-<video src='https://youtu.be/99cM8lVPtrU' width=180/></video>
+[![Watch the video]](https://youtu.be/99cM8lVPtrU)
 

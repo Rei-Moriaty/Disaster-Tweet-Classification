@@ -39,6 +39,6 @@ Then for deployment we create a flask app which takes real time tweets using twe
 We then create Dockerfile to create containerize the app and use it
 
 
-[![Disaster Tweet Classifier](https://imgur.com/t/forest_fire/ppEpHoT)](https://youtu.be/99cM8lVPtrU)
+[![Disaster Tweet Classifier](https://img.youtube.com/vi/99cM8lVPtrU/hqdefault.jpg)](https://youtu.be/99cM8lVPtrU)
 
 

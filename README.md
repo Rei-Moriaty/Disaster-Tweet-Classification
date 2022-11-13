@@ -38,3 +38,6 @@ Then for deployment we create a flask app which takes real time tweets using twe
 
 We then create Dockerfile to create containerize the app and use it
 
+
+![Demo Video]([https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/gif_english.gif](https://github.com/Rei-Moriaty/Disaster-Tweet-Classification/blob/main/2022_11_13_184549.mp4))
+

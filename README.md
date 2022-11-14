@@ -1,10 +1,11 @@
 # Disaster Tweet Classification
 
 
-[![Disaster Tweet Classifier](https://img.youtube.com/vi/99cM8lVPtrU/hqdefault.jpg)](https://n-disaster-tweet-classifier.herokuapp.com/)
-
-
 [![Disaster Tweet Classifier](https://img.youtube.com/vi/99cM8lVPtrU/hqdefault.jpg)](https://youtu.be/99cM8lVPtrU)
+
+
+[![Disaster Tweet Classifier App])](https://n-disaster-tweet-classifier.herokuapp.com/)
+
 
 
 Twitter has become an important communication channel in times of emergency.

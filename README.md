@@ -1,6 +1,12 @@
 # Disaster Tweet Classification
 
 
+[![Disaster Tweet Classifier](https://img.youtube.com/vi/99cM8lVPtrU/hqdefault.jpg)](https://n-disaster-tweet-classifier.herokuapp.com/)
+
+
+[![Disaster Tweet Classifier](https://img.youtube.com/vi/99cM8lVPtrU/hqdefault.jpg)](https://youtu.be/99cM8lVPtrU)
+
+
 Twitter has become an important communication channel in times of emergency.
 The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies).
 
@@ -39,6 +45,6 @@ Then for deployment we create a flask app which takes real time tweets using twe
 We then create Dockerfile to create containerize the app and use it
 
 
-[![Disaster Tweet Classifier](https://img.youtube.com/vi/99cM8lVPtrU/hqdefault.jpg)](https://youtu.be/99cM8lVPtrU)
+
 
 
